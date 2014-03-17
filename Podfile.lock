@@ -1,0 +1,20 @@
+PODS:
+  - BSKeyboardControls (2.2)
+  - HexColors (2.2.1)
+  - TSMessages (0.9.6):
+    - HexColors
+
+DEPENDENCIES:
+  - BSKeyboardControls (from `https://github.com/simonbs/BSKeyboardControls.git`)
+  - TSMessages
+
+EXTERNAL SOURCES:
+  BSKeyboardControls:
+    :git: https://github.com/simonbs/BSKeyboardControls.git
+
+SPEC CHECKSUMS:
+  BSKeyboardControls: 6c1f5e5e6ccc27fc1a5e7c30268fb4953de28352
+  HexColors: 3a68db077cd6572a8f7d4aa1add284dd2436a934
+  TSMessages: 839edc3164b99ced48c30af9dde9710cd67bea4d
+
+COCOAPODS: 0.29.0

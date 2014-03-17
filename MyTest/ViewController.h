@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BSKeyboardControls/BSKeyboardControls.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <BSKeyboardControlsDelegate, UITextFieldDelegate>
+
+@property (nonatomic, weak) IBOutlet UITextField *myTextField;
 
 @end
